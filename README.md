@@ -65,3 +65,5 @@ Local in-app requests to the relative path `/.netlify/functions/*` will automati
 ## Service Worker
 
 The service worker does not work with lambda functions out of the box. It prevents calling the function and returns the app itself instead ([Read more](https://github.com/facebook/create-react-app/issues/2237#issuecomment-302693219)). To solve this you have to eject and enhance the service worker configuration in the webpack config. Whitelist the path of your lambda function and you are good to go.
+
+[SourceArticleURL](https://blog.apollographql.com/deploy-a-fullstack-apollo-app-with-netlify-45a7dfd51b0b)
