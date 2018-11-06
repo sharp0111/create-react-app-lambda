@@ -21,6 +21,10 @@ Most people should be able to get up and running just by running:
 ```bash
 yarn start
 ```
+or
+```
+npm start
+```
 
 This uses [npm-run-all](https://github.com/mysticatea/npm-run-all#readme) to run the functions dev server and app dev server concurrently.
 
@@ -33,6 +37,9 @@ From inside the project folder, run:
 ```
 yarn start:lambda
 ```
+```
+npm run start:lambda
+```
 
 This will open a local server running at `http://localhost:9000` serving your Lambda functions, updating as you make changes in the `src/lambda` folder.
 
@@ -44,6 +51,9 @@ While the functions server is still running, open a new terminal tab and run:
 
 ```
 yarn start:app
+```
+```
+npm run start:app
 ```
 
 This will start the normal create-react-app dev server and open your app at `http://localhost:3000`.
