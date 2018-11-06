@@ -37,6 +37,7 @@ From inside the project folder, run:
 ```
 yarn start:lambda
 ```
+or
 ```
 npm run start:lambda
 ```
@@ -52,6 +53,7 @@ While the functions server is still running, open a new terminal tab and run:
 ```
 yarn start:app
 ```
+or
 ```
 npm run start:app
 ```
